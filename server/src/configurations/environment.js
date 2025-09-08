@@ -10,7 +10,8 @@ export const ENVIRONMENT_CONFIGS = {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   },
-  SERVER: process.env.SERVER || `http://localhost:3020`,
+  // SERVER: process.env.SERVER || `http://localhost:3020`,
+  SERVER: process.env.SERVER || `https://ashish2-1.onrender.com`,
   JWT_SECRET: process.env.JWT_SECRET || "ManVsWildIsAwsomeShow",
   
 };
